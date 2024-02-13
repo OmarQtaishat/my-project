@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px; 
+  }
+  
+  .moving-photo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: movePhoto 8s infinite; 
+  }
+  
+  @keyframes movePhoto {
+    20%{
+      margin-left: 95%;
+      margin-top: 0%;
+  }
+  40%{
+      margin-left: 95%;
+      margin-top: 44%;
+
+  }
+  60%{
+      margin-top: 44%;
+      margin-left: 0%;
+  }
+  80%{
+      margin-top: 0%;
+      margin-left: 0%;
+  }
+  100%{
+      margin-top: 22%;
+      margin-left: 47.5%
+    }
+  }
